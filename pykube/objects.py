@@ -169,7 +169,7 @@ class ConfigMap(NamespacedAPIObject):
 
 class CronJob(NamespacedAPIObject):
 
-    version = "batch/v2alpha1"
+    version = "batch/v1alpha1"
     endpoint = "cronjobs"
     kind = "CronJob"
 
